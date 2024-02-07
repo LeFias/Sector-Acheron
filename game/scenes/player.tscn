@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0ftkiee7be4b"]
+
+[ext_resource type="Script" path="res://game/main/Player.gd" id="1_wsbui"]
+[ext_resource type="Texture2D" uid="uid://dcc0m15bpfi5d" path="res://game/textures/andrewship.png" id="2_0nt0c"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rj7vb"]
+radius = 59.3043
+
+[node name="Player" type="RigidBody2D"]
+script = ExtResource("1_wsbui")
+
+[node name="Camera" type="Camera2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_0nt0c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_rj7vb")

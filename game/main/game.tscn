@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://bh0ug7gtd0n2m"]
+
+[ext_resource type="Texture2D" uid="uid://di2pvupwjjwim" path="res://icon.svg" id="1_jusbr"]
+[ext_resource type="PackedScene" uid="uid://d0ftkiee7be4b" path="res://game/scenes/player.tscn" id="2_s75kc"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(884, 497)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(183, 185)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+position = Vector2(163, 557)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+position = Vector2(-155, 189)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon5" type="Sprite2D" parent="."]
+position = Vector2(-84, -91)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon6" type="Sprite2D" parent="."]
+position = Vector2(477, -58)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon7" type="Sprite2D" parent="."]
+position = Vector2(1321, 127)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon8" type="Sprite2D" parent="."]
+position = Vector2(645, 734)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon9" type="Sprite2D" parent="."]
+position = Vector2(1440, 665)
+texture = ExtResource("1_jusbr")
+
+[node name="Icon10" type="Sprite2D" parent="."]
+position = Vector2(995, -10)
+texture = ExtResource("1_jusbr")
+
+[node name="Player" parent="." instance=ExtResource("2_s75kc")]
+position = Vector2(566, 322)
