@@ -14,7 +14,7 @@ func _physics_process(delta):
 	
 	var mouse_pos := get_global_mouse_position()
 	#look_at(mouse_pos)
-	rotation = get_global_mouse_position().angle_to_point(position)
+	rotation = get_global_mouse_position().angle_to_point(position) - PI/2
 	#rotate(PI)
 	# ЗАМЕНИТЬ НА ФИЗ ВРАЩЕНИЕ
 	
