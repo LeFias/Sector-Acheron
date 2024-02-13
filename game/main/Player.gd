@@ -18,5 +18,16 @@ func _physics_process(delta):
 	#rotate(PI)
 	# ЗАМЕНИТЬ НА ФИЗ ВРАЩЕНИЕ
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
