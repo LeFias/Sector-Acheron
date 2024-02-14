@@ -2,6 +2,7 @@ extends RigidBody2D
 
 @onready var sprite := $Sprite
 @onready var a := $Icon
+@onready var kkk := preload("res://game/scenes/bullet.tscn")
 
 const SPEED := 300.0
 
@@ -17,17 +18,7 @@ func _physics_process(delta):
 	rotation = get_global_mouse_position().angle_to_point(position) - PI/2
 	#rotate(PI)
 	# ЗАМЕНИТЬ НА ФИЗ ВРАЩЕНИЕ
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	if Input.is_action_just_pressed("ui_accept"):
+		kkk.instantiate()
 
 	
